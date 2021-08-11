@@ -1,0 +1,28 @@
+.tabBox{
+    /* display: flex; */
+    /* border-bottom: 2px solid #eee; */
+    padding-bottom: 10px;
+
+}
+.line{
+    min-height: 40px;
+}
+.line button{
+    margin: 0 10px;
+}
+.tips{
+    font-size: 12px;
+    color: red;
+}
+#system .MuiTab-root{
+    min-height: 24px !important;
+    padding: 4px 12px !important;
+}
+.MuiTabScrollButton-vertical,.MuiButtonBase-root.Mui-disabled{
+    display: none !important;
+}
+@media screen and (max-width: 2000px) {
+    .MuiBox-root {
+        padding: 0 20px !important;
+    }
+  }

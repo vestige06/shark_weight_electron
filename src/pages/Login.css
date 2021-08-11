@@ -1,0 +1,36 @@
+.login{
+    margin: 14% 0;
+}
+.logo{
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+}
+.inputBox,.more,.forget{
+    margin: 10px 0;
+}
+.forget:hover{
+    color: red;
+}
+.inputBox .MuiFormControl-root {
+    min-width: 100%;
+    margin: 0 !important;
+}
+ .MuiButton-outlinedPrimary {
+    width: 50%;
+}
+.loginBtn{
+    display: flex;
+    justify-content: space-between;
+}
+.loginBtn>button{
+  color: #3f51b5;
+  width: 100%;
+  padding: 10px 0 ;
+  border: 1px solid rgba(63, 81, 181, 0.5);
+}
+.dataTip{
+    font-size: 12px;
+    color: #ff5b5b;
+    text-align: center;
+}

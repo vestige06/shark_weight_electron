@@ -1,0 +1,16 @@
+node_modules
+.vscode
+truckscale-win32-x64
+uploads
+.history
+expendPlugins
+js
+bundle.js
+bundle.js.map
+index.html
+node_modules_web-vitals_dist_web-vitals_js.js
+node_modules_web-vitals_dist_web-vitals_js.js.map
+preload.js
+preload.js.map
+css
+dist

@@ -1,0 +1,71 @@
+.HomeSheetTable{
+    min-height: 35vh;
+    width: 100%;
+    margin: auto;
+    background-color: bisque;
+}
+
+.HomeSheetTableThInput{
+    width:100%;
+    height:32px;
+    border:none;
+    text-align:center;
+    padding: 0px !important;
+}
+.HomeSheetTableThInput > h3{
+    text-align: center;
+    font-size: 22px;
+    padding: 0px;
+    margin:0;
+}
+
+/* .tb-td{
+    height: 100%;
+    padding: 0px !important;
+    margin: 0px;
+} */
+
+.tb-input{
+    height: 72px;
+    margin:auto;
+    padding: auto;
+    border:none;
+    font-size: 22px;
+    text-align: center;
+    width: 100%;
+}
+
+.td-c2{
+    width: 100px;
+    padding: none;
+}
+
+.input-c2{
+    width: 100px;
+    height:32px;
+    border:none;
+    text-align:center;
+}
+
+.td-c4{
+    width: 100px;
+    padding: none;
+}
+
+.input-c4{
+    width: 100px;
+    height:32px;
+    border:none;
+    text-align:center;
+}
+.td-c6{
+    width: 100px;
+    padding: none;
+}
+
+.input-c6{
+    width: 100px;
+    height:32px;
+    border:none;
+    text-align:center;
+}

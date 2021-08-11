@@ -1,0 +1,363 @@
+.App {
+  margin: 10px;
+  font-size: 16px;
+  font-weight: 800;
+}
+.App>div{
+  margin: 5px 0;
+}
+.top{
+  display: flex;
+}
+.showWeight {
+  width: 70%;
+  min-height: 80px;
+  font-size: 96px;
+  font-weight: 800;
+  text-align: end;
+  border: 2px solid #41b1e1;
+  /* background: #eee; */
+  border-radius: 5px;
+  margin-left: 15px;
+  /* box-shadow: 3px 3px 3px rgb(191 191 191); */
+}
+.icons{
+  display: flex;
+}
+.showForm{
+  margin: 20px 0 20px 0;
+  width: 100%;
+  height: 55vmin;
+  background: rgb(121, 121, 121);
+  box-shadow: 3px 3px 3px rgb(191, 191, 191);
+  display: flex;
+  border-radius: 5px;
+  /* position: absolute; */
+}
+.showFormContent{
+  /* width: 700px; */
+  margin: 20px auto;
+}
+.more .MuiAccordionDetails-root{
+  display: inline-block;
+}
+.App>.reBtn{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.btn01{
+  display: flex;
+  justify-content: space-around;
+}
+.btns{
+  position: fixed;
+  bottom: 4px;
+  right: 44px;
+}
+.btns>div{
+  margin: 5px 0;
+}
+.alt1,.alt2,.alt3,.alt4,.alt5,.alt6,.alt7{
+  position: relative;
+}
+.alt1:hover,.alt2:hover,.alt3:hover,.alt4:hover,.alt5:hover,.alt6:hover,.alt7:hover{
+  color: #41b1e1;
+}
+.alt1:hover .altTips1{
+  display: block;
+}
+.alt2:hover .altTips2{
+  display: block;
+}
+.alt3:hover .altTips3{
+  display: block;
+}
+.alt4:hover .altTips4{
+  display: block;
+}
+.alt5:hover .altTips5{
+  display: block;
+}
+.alt6:hover .altTips6{
+  display: block;
+}
+.alt7:hover .altTips7{
+  display: block;
+}
+.altTips{
+  display: none;
+}
+.altTips:hover{
+  color: red;
+}
+.altTips1,.altTips2,.altTips3,.altTips4,.altTips5,.altTips6,.altTips7{
+  position: absolute;
+  width: 408%;
+  top: -25px;
+  left: -10px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #737373;
+}
+.on{
+  display: block;
+}
+.off{
+  display: none;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+button{
+  color: #5c5c5c;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #fff;
+  margin: 0 6px;
+	overflow: hidden;
+	width: auto;
+	padding: 5px 10px;
+	cursor: pointer;
+	text-align: center;
+  box-shadow:  1px 1px 3px #5c5c5c;
+  transition: all .9s;
+}
+button:hover {
+  background-color: #ececec;
+  box-shadow: inset 2px 2px 2px #5c5c5c;
+  /* color: rgba(0, 117, 255); */
+  /* border: 1px solid rgba(63, 81, 181, 0.5); */
+}
+
+@media screen and (max-width: 600px) {
+  * {
+    font-size: 12px;
+  }
+  .showWeight {
+    width: 80%;
+    font-size: 76px;
+    transition-timing-function: linear;
+  }
+}
+
+.bQNRAb.grid-root .material-cell:focus, .bQNRAb.grid-root .material-col-cell:focus {
+  outline: none !important; 
+  outline-color: transparent;
+}
+/* , input[type="password"] */
+input[type="text"] {
+  border: none;
+  border-radius: 5px;
+  padding: 4px 10px;
+  outline: 1px solid #ccc;
+  width: 90px;
+}
+input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 18px;
+  margin-right: 1em;
+  margin-top:0;
+  position: relative;
+}
+
+input[type="checkbox"]::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+}
+
+input[type="checkbox"]:checked::before {
+  content: "\2713";
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border: 1px solid #7D7D7D;
+  border-radius:4px;
+  color: rgba(63, 81, 181);
+  font-size: 20px;
+  font-weight: bold;
+}
+label,select{
+  margin-right: 10px;
+}
+
+input[type="radio"] {
+  content: '';
+  background: #fff;
+  border-radius: 100%;
+  border: 1px solid #d9d9d9;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 0;
+  margin-top: 11px ;
+  vertical-align: top;
+  cursor: pointer;
+  text-align: center;
+  -webkit-transition: all 250ms ease;
+  transition: all 250ms ease;
+}
+input[type="radio"]:checked  {
+  background-color: #3f51b5;
+  /* box-shadow: inset 0 0 0 4px #f4f4f4; */
+}
+input[type="radio"]:focus {
+  border-color: #3f51b5;
+}
+input[type="radio"]:disabled {
+  box-shadow: inset 0 0 0 4px #f4f4f4;
+  border-color: #3f51b5;
+  background: #b4b4b4;
+}
+@media (min-width: 600px){
+  .MuiTab-root {
+    min-width: 80px !important;
+}
+}
+.MuiTab-root,.MuiIconButton-colorInherit {
+  min-width: 80px !important;
+  width: 110px;
+  /* background: #f5f5f5 !important; */
+}
+.MuiTabs-flexContainer {
+  justify-content: space-between !important;
+}
+@media screen and (min-width: 1200px) {
+  
+  .showWeight {
+    width: 60%;
+    font-size: 136px;
+    padding-right: 15px;
+    transition-timing-function: linear;
+  }
+  .App>.showForm{
+    margin: 20px 0 20px 0;
+    width: 100%;
+    height: 55vmin;
+    /* position: absolute; */
+  }
+}
+@media screen and (min-width: 1400px) {
+  .showWeight {
+    font-size: 182px;
+  }
+}
+@media screen and (min-width: 1000px) and (max-width: 1200px){
+  .showWeight {
+    width: 60%;
+    font-size: 120px;
+    padding-right: 15px;
+    transition-timing-function: linear;
+  }
+  .App>.showForm{
+    margin: 20px 0 20px 0;
+    width: 100%;
+    height: 55vmin;
+    /* position: absolute; */
+  }
+}
+@media screen and (max-width: 784px) {
+  
+  .showWeight {
+    width: 60%;
+    font-size: 100px;
+    padding-right: 15px;
+    transition-timing-function: linear;
+  }
+  .App>.showForm{
+    margin: 20px 0 20px 0;
+    width: 100%;
+    min-height: 50vmin;
+    /* position: absolute; */
+  }
+ 
+}
+.save-list{
+  width: 80%;
+  margin: 15px 10%;
+}
+.save-input{
+  display: flex;
+  margin: 10px 10%;
+  justify-content: space-around;
+}
+.save-input-text{
+  margin: 0 0 10px 0;
+}
+.save-btn{
+  width: 100%;
+  height: 100%;
+}
+.article-text{
+  margin: 0 0 0 5%;
+}
+.form-editor{
+  margin: 15px 10%;
+}
+.article-input-text{
+  margin: 10px 0 10px 0;
+}
+.form-editor div a{
+  color: #3f51b5;
+  text-decoration: underline;
+}
+.form-editor div a:hover{
+  color: red;
+}
+.system-save-btn{
+  position: fixed !important;
+  bottom: 80px;
+  right: 80px;
+  width: 20%;
+}
+.car-licence{
+  width: 15%;
+}
+hr{
+  border-bottom: 2px solid #e4e4e4;
+}
+.data-table{
+  height: 400px;
+  width: 100%;
+  display: block;
+}
+.dialog-box{
+  margin: 10px 40px 40px 40px;
+}
+.close-dialog{
+  text-align: right;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #cecece;
+}
+.close-dialog>span{
+  text-align: left;
+  float: left;
+  font-weight: 600;
+}
+.close-sialog-btn{
+  width: 100%;
+}
+.dialog-box>div{
+  margin: 15px 0;
+}
+.dialog-box div>span{
+  display: inline-block;
+  width: 80px;
+}
+.tree-box{
+  display: flex;
+  justify-content:  space-between;;
+}

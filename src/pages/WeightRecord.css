@@ -1,0 +1,67 @@
+.WeightRecord {
+    font-family: monospace;  
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 800;
+  }
+.upContent{
+    border-bottom:2px solid #eee;
+    padding-bottom: 20px;
+}
+.SquareBtn{
+    display: flex;
+    cursor: pointer;
+}
+.formList .MuiGrid-container{
+    display: inline;
+}
+.formList .MuiFormControl-marginNormal{
+    margin-top: 0;
+}
+.formList .MuiInputBase-input{
+    width: 90px;
+}
+.formList  .PrivateSwitchBase-root-1{
+    padding: 0 9px;
+}
+.formList .MuiOutlinedInput-input{
+    padding: 5px;
+}
+.MuiButtonBase-root{
+    transition: all .9s;
+}
+.MuiButtonBase-root:hover{
+    background-color: #ececec;
+    box-shadow: inset 2px 2px 3px #5c5c5c;
+}
+.Mui-selected{
+    transition: all 0.5s;
+    box-shadow: 2px 0px 7px #5c5c5c, -2px 0px 7px #5c5c5c;
+    
+}
+.formList1>span{
+    padding-right: 15px;
+}
+.MuiTypography-body1{
+    line-height: 2.5 !important;
+}
+.show2{
+    display: none;
+}
+.show1{
+    display: block;
+}
+
+  .downContent{
+      position: fixed;
+      bottom: 0;
+  }
+  /* .downContent>button{
+    padding: 3px 6px;
+    margin: 0 5px;
+  } */
+  select{
+    padding: 4px 10px;
+    border: none;
+    outline: 1px solid #ccc;
+  }

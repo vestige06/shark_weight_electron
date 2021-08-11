@@ -1,0 +1,207 @@
+{
+  "name": "truckscale",
+  "version": "0.1.0",
+  "private": true,
+  "main": "main.js",
+  "dependencies": {
+    "@babel/core": "7.14.6",
+    "@date-io/date-fns": "^2.10.11",
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/data-grid": "*",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.58",
+    "@material-ui/pickers": "^3.3.10",
+    "@pmmmwh/react-refresh-webpack-plugin": "0.4.3",
+    "@reduxjs/toolkit": "^1.6.0",
+    "@svgr/webpack": "5.5.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.0.0",
+    "@testing-library/user-event": "^13.1.9",
+    "@types/jest": "^26.0.23",
+    "@types/node": "^16.0.0",
+    "@types/react": "^17.0.13",
+    "@types/react-dom": "^17.0.8",
+    "@types/react-redux": "^7.1.18",
+    "@types/react-router-dom": "^5.1.7",
+    "@types/sequelize": "^4.28.9",
+    "@types/sqlite3": "^3.1.7",
+    "@typescript-eslint/eslint-plugin": "^4.28.1",
+    "@typescript-eslint/parser": "^4.28.1",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^27.0.6",
+    "babel-loader": "8.2.2",
+    "babel-plugin-named-asset-import": "^0.3.7",
+    "babel-preset-react-app": "^10.0.0",
+    "bfj": "^7.0.2",
+    "camelcase": "^6.2.0",
+    "case-sensitive-paths-webpack-plugin": "2.4.0",
+    "cppmsg": "^1.2.1",
+    "cross-env": "^7.0.3",
+    "css-loader": "5.2.6",
+    "date-fns": "^2.22.1",
+    "dotenv": "10.0.0",
+    "dotenv-expand": "5.1.0",
+    "electron": "^13.1.5",
+    "electron-log": "^4.3.5",
+    "electron-packager": "^15.2.0",
+    "electron-react-devtools": "^0.5.3",
+    "electron-rebuild": "^2.3.5",
+    "eslint": "^7.30.0",
+    "eslint-config-react-app": "^6.0.0",
+    "eslint-plugin-flowtype": "^5.8.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-jest": "^24.3.6",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-testing-library": "^4.7.0",
+    "eslint-webpack-plugin": "^2.5.4",
+    "expose-loader": "^3.0.0",
+    "file-loader": "6.2.0",
+    "fs-extra": "^10.0.0",
+    "html-webpack-plugin": "5.3.2",
+    "identity-obj-proxy": "3.0.0",
+    "jest": "27.0.6",
+    "jest-circus": "27.0.6",
+    "jest-resolve": "27.0.6",
+    "jest-watch-typeahead": "0.6.4",
+    "jquery": "^3.6.0",
+    "luckyexcel": "^1.0.1",
+    "luckysheet": "^2.1.13",
+    "mini-css-extract-plugin": "2.0.0",
+    "node-rtsp-stream": "^0.0.9",
+    "npm-check-updates": "^11.8.1",
+    "optimize-css-assets-webpack-plugin": "6.0.1",
+    "pg-hstore": "^2.3.4",
+    "pnp-webpack-plugin": "1.6.4",
+    "postcss-flexbugs-fixes": "5.0.2",
+    "postcss-loader": "6.1.1",
+    "postcss-normalize": "10.0.0",
+    "postcss-preset-env": "6.7.0",
+    "postcss-safe-parser": "6.0.0",
+    "prompts": "2.4.1",
+    "react": "^16.12.0",
+    "react-app-polyfill": "^2.0.0",
+    "react-dev-utils": "^11.0.4",
+    "react-dom": "^16.12.0",
+    "react-redux": "^7.2.4",
+    "react-refresh": "^0.10.0",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.1.0",
+    "resolve": "1.20.0",
+    "resolve-url-loader": "^4.0.0",
+    "sass-loader": "^12.1.0",
+    "semver": "7.3.5",
+    "sequelize": "^6.6.4",
+    "serialport": "^9.2.0",
+    "source-map-loader": "^3.0.0",
+    "sqlite3": "^5.0.2",
+    "style-loader": "3.0.0",
+    "styled-components": "^5.3.0",
+    "terser-webpack-plugin": "5.1.4",
+    "ts-loader": "^9.2.3",
+    "ts-pnp": "1.2.0",
+    "typescript": "^4.3.5",
+    "update-electron-app": "^2.0.1",
+    "url-loader": "4.1.1",
+    "web-vitals": "^2.1.0",
+    "webpack": "5.42.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "3.11.2",
+    "webpack-manifest-plugin": "3.1.1",
+    "workbox-webpack-plugin": "6.1.5",
+    "worker-loader": "^3.0.8",
+    "ws": "^7.5.2",
+    "xlsx": "^0.17.0",
+    "xlsx-style": "^0.8.13"
+  },
+  "scripts": {
+    "start": "cross-env NODE_ENV=development webpack serve",
+    "build": "cross-env NODE_ENV=production webpack",
+    "test": "",
+    "estart": "electron . --trace-warnings",
+    "estart-prod": "cross-env NODE_ENV=production electron . --trace-warnings",
+    "rebuild": "electron-rebuild",
+    "bundle-report": "webpack-bundle-analyzer --port 8123 dist/stats.json"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/async": "^3.2.7",
+    "@types/styled-components": "^5.1.11",
+    "webpack-bundle-analyzer": "^4.4.2"
+  },
+  "jest": {
+    "roots": [
+      "<rootDir>/src"
+    ],
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx,ts,tsx}",
+      "!src/**/*.d.ts"
+    ],
+    "setupFiles": [
+      "react-app-polyfill/jsdom"
+    ],
+    "setupFilesAfterEnv": [
+      "<rootDir>/src/setupTests.js"
+    ],
+    "testMatch": [
+      "<rootDir>/src/**/__tests__/**/*.{js,jsx,ts,tsx}",
+      "<rootDir>/src/**/*.{spec,test}.{js,jsx,ts,tsx}"
+    ],
+    "testEnvironment": "jsdom",
+    "testRunner": "C:\\Apps\\shark_weight_electron\\node_modules\\jest-circus\\runner.js",
+    "transform": {
+      "^.+\\.(js|jsx|mjs|cjs|ts|tsx)$": "<rootDir>/config/jest/babelTransform.js",
+      "^.+\\.css$": "<rootDir>/config/jest/cssTransform.js",
+      "^(?!.*\\.(js|jsx|mjs|cjs|ts|tsx|css|json)$)": "<rootDir>/config/jest/fileTransform.js"
+    },
+    "transformIgnorePatterns": [
+      "[/\\\\]node_modules[/\\\\].+\\.(js|jsx|mjs|cjs|ts|tsx)$",
+      "^.+\\.module\\.(css|sass|scss)$"
+    ],
+    "modulePaths": [],
+    "moduleNameMapper": {
+      "^react-native$": "react-native-web",
+      "^.+\\.module\\.(css|sass|scss)$": "identity-obj-proxy"
+    },
+    "moduleFileExtensions": [
+      "web.js",
+      "js",
+      "web.ts",
+      "ts",
+      "web.tsx",
+      "tsx",
+      "json",
+      "web.jsx",
+      "jsx",
+      "node"
+    ],
+    "watchPlugins": [
+      "jest-watch-typeahead/filename",
+      "jest-watch-typeahead/testname"
+    ],
+    "resetMocks": true
+  },
+  "babel": {
+    "presets": [
+      "react-app"
+    ]
+  }
+}

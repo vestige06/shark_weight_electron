@@ -1,0 +1,72 @@
+.formTable{
+    border-collapse: collapse;
+    margin: auto;
+    width: 85%;
+    height: 80%;
+}
+@media screen and (min-width: 1300px){
+    .formTable{
+        width: 80%;
+    }
+
+    thead{
+        font-size: 36px;
+        padding: 10px;
+    }
+    th,td{
+        font-size: 32px ;
+        font-weight: 500;
+    }
+
+    td .app_select{
+        font-size: 25px;
+    }
+    .HomeSheetTableThInput .app_input{
+        font-size: 46px !important;
+        font-weight: 800;
+    }
+}
+
+th,td{
+    border: 1px solid #ddd;
+    /* box-shadow: 2px 2px 2px #77848ee3; */
+    
+    background-color: #fff;
+}
+th{
+    padding: 15px 20px;
+}
+td{
+    font-weight: 400;
+    white-space: nowrap;
+    padding: 0px 5px;
+}
+.app_select{
+    outline: none;
+    width: 100%;
+    margin-right: 0;
+    font-size: 20px;
+    /* padding: 18px 10px; */
+  }
+  .formTable .app_input{
+    outline: none;
+    padding: 0;
+    font-size: 20px;
+    padding: 18px 10px;
+    width: 82%;
+    /* background: #fff; */
+  }
+  .input_box{
+    display: flex;
+    justify-content: space-between;
+  }
+.HomeSheetTableThInput .app_input{
+    text-align: center;
+    font-size: 32px;
+    border:none;
+}
+input:disabled{
+    background-color:#fff
+}
+
+
